@@ -240,3 +240,264 @@ footer{
     padding:22px;
 
 }
+/* ==========================================
+   DANH MỤC CHI TIÊU
+========================================== */
+
+.category-card{
+
+    background:#ffffff;
+
+    border-left:6px solid #2563eb;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    margin-bottom:20px;
+
+    transition:0.3s;
+
+}
+
+.category-card:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.category-title{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:12px;
+
+}
+
+.category-title h3{
+
+    font-size:20px;
+
+    color:#1e3a8a;
+
+}
+
+.money{
+
+    color:#16a34a;
+
+    font-size:18px;
+
+    font-weight:700;
+
+}
+
+/* ==========================================
+   THANH PHẦN TRĂM
+========================================== */
+
+.progress{
+
+    width:100%;
+
+    height:14px;
+
+    background:#e5e7eb;
+
+    border-radius:50px;
+
+    overflow:hidden;
+
+    margin:12px 0;
+
+}
+
+.progress-bar{
+
+    height:100%;
+
+    border-radius:50px;
+
+    background:linear-gradient(90deg,#2563eb,#60a5fa);
+
+}
+
+/* ==========================================
+   DANH SÁCH KHOẢN CHI
+========================================== */
+
+.item-list{
+
+    margin-top:15px;
+
+    padding-left:20px;
+
+}
+
+.item-list li{
+
+    margin:8px 0;
+
+    color:#555;
+
+}
+
+/* ==========================================
+   GHI CHÚ
+========================================== */
+
+.note{
+
+    margin-top:30px;
+
+    padding:18px;
+
+    background:#eff6ff;
+
+    border-left:5px solid #2563eb;
+
+    border-radius:10px;
+
+}
+
+.note h3{
+
+    color:#1d4ed8;
+
+    margin-bottom:10px;
+
+}
+
+.note p{
+
+    color:#555;
+
+}
+
+/* ==========================================
+   CẢNH BÁO
+========================================== */
+
+.warning{
+
+    margin-top:20px;
+
+    padding:18px;
+
+    background:#fff7ed;
+
+    border-left:5px solid #f97316;
+
+    border-radius:10px;
+
+}
+
+.warning h3{
+
+    color:#ea580c;
+
+}
+
+.warning p{
+
+    color:#555;
+
+}
+
+/* ==========================================
+   THÔNG BÁO THÀNH CÔNG
+========================================== */
+
+.success{
+
+    margin-top:20px;
+
+    padding:18px;
+
+    background:#ecfdf5;
+
+    border-left:5px solid #22c55e;
+
+    border-radius:10px;
+
+}
+
+.success h3{
+
+    color:#16a34a;
+
+}
+
+/* ==========================================
+   BIỂU ĐỒ
+========================================== */
+
+.chart-box{
+
+    margin-top:35px;
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+canvas{
+
+    max-width:500px;
+
+    margin:auto;
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:768px){
+
+header h1{
+
+font-size:30px;
+
+}
+
+header p{
+
+font-size:15px;
+
+}
+
+.card{
+
+padding:20px;
+
+}
+
+.category-title{
+
+flex-direction:column;
+
+align-items:flex-start;
+
+gap:10px;
+
+}
+
+button{
+
+font-size:16px;
+
+}
+
+}
